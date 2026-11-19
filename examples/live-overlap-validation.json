@@ -1,0 +1,27 @@
+{
+  "coverage": "Second real capture of the overlapping last 14 calendar days, minutes after initial capture; not a historical revision series.",
+  "window": {
+    "window_end": "2026-11-19",
+    "window_start": "2026-11-06"
+  },
+  "capture_id": "e10f87e425d77a97cf28cdde3b1d5d79f91030317455a3557331ebdf9624bf43",
+  "captured_at": "2026-11-19T22:11:34.747340Z",
+  "raw_sha256": "563d18a9fb1587c767c4243c58439f300bfa6736ddf65d5343e7616e925d6462",
+  "raw_bytes_both_passes": 251254,
+  "changes": {
+    "raw_rows": 18,
+    "inserted": 0,
+    "revised": 0,
+    "removed": 0,
+    "unchanged": 18
+  },
+  "current_versions_equal_before_after": true,
+  "counts": {
+    "captures": 2,
+    "current_auctions": 61,
+    "auction_versions": 61
+  },
+  "exact_prior_capture_replay_unchanged": true,
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0
+}

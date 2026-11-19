@@ -1,0 +1,390 @@
+{
+  "columns": {
+    "capture_audit": [
+      "load_sequence",
+      "captured_at",
+      "window_start",
+      "window_end",
+      "raw_rows",
+      "inserted",
+      "revised",
+      "removed",
+      "unchanged",
+      "capture_id",
+      "raw_sha256"
+    ],
+    "daily_totals": [
+      "auction_date",
+      "auction_count",
+      "offering_usd",
+      "awarded_usd",
+      "auctions_with_awarded_amount"
+    ],
+    "instrument_summary": [
+      "security_type",
+      "inflation_protected",
+      "floating_rate",
+      "comp_bid_expression",
+      "auction_count",
+      "offering_usd",
+      "awarded_usd",
+      "auctions_with_awarded_amount",
+      "recognized_usd",
+      "auctions_with_recognized_amount",
+      "reopenings"
+    ],
+    "quality": [
+      "metric",
+      "value"
+    ],
+    "revision_history": [
+      "auction_date",
+      "cusip",
+      "version",
+      "state",
+      "observed_from",
+      "observed_to",
+      "offering_usd",
+      "awarded_usd",
+      "comp_bid_expression",
+      "high_rate",
+      "high_yield",
+      "high_discnt_margin",
+      "bid_to_cover_ratio"
+    ]
+  },
+  "coverage": "Observed public Treasury API captures; auction-date coverage is a query interval, not a guarantee of upstream completeness.",
+  "covered_end": "2026-11-19",
+  "covered_start": "2026-10-01",
+  "provenance": "public_treasury",
+  "source_urls": [
+    "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/treasury_securities_auctions_v2"
+  ],
+  "tables": {
+    "capture_audit": [
+      {
+        "capture_id": "0e38fda0b625ce40e28838599d091a499130a53bc333fee491dd149c89db6282",
+        "captured_at": "2026-11-19T22:06:13.938740Z",
+        "inserted": 61,
+        "load_sequence": 1,
+        "raw_rows": 61,
+        "raw_sha256": "ee2d437db7d78accae70f435b94a0a2897c903867e23c714538842f42858073a",
+        "removed": 0,
+        "revised": 0,
+        "unchanged": 0,
+        "window_end": "2026-11-19",
+        "window_start": "2026-10-01"
+      }
+    ],
+    "daily_totals": [
+      {
+        "auction_count": 2,
+        "auction_date": "2026-10-01",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "204929926700.00",
+        "offering_usd": "195000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-10-05",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "190333615900.00",
+        "offering_usd": "177000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-10-06",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "161533982600.00",
+        "offering_usd": "153000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-10-07",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "121300765200.00",
+        "offering_usd": "114000000000.00"
+      },
+      {
+        "auction_count": 3,
+        "auction_date": "2026-10-08",
+        "auctions_with_awarded_amount": 3,
+        "awarded_usd": "255795558600.00",
+        "offering_usd": "237000000000.00"
+      },
+      {
+        "auction_count": 3,
+        "auction_date": "2026-10-13",
+        "auctions_with_awarded_amount": 3,
+        "awarded_usd": "287475290500.00",
+        "offering_usd": "272000000000.00"
+      },
+      {
+        "auction_count": 1,
+        "auction_date": "2026-10-14",
+        "auctions_with_awarded_amount": 1,
+        "awarded_usd": "80054540100.00",
+        "offering_usd": "75000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-10-15",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "229488827700.00",
+        "offering_usd": "215000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-10-19",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "189486433700.00",
+        "offering_usd": "177000000000.00"
+      },
+      {
+        "auction_count": 1,
+        "auction_date": "2026-10-20",
+        "auctions_with_awarded_amount": 1,
+        "awarded_usd": "101701431000.00",
+        "offering_usd": "95000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-10-21",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "93403309800.00",
+        "offering_usd": "88000000000.00"
+      },
+      {
+        "auction_count": 4,
+        "auction_date": "2026-10-22",
+        "auctions_with_awarded_amount": 4,
+        "awarded_usd": "281489271000.00",
+        "offering_usd": "266000000000.00"
+      },
+      {
+        "auction_count": 3,
+        "auction_date": "2026-10-26",
+        "auctions_with_awarded_amount": 3,
+        "awarded_usd": "269416210600.00",
+        "offering_usd": "246000000000.00"
+      },
+      {
+        "auction_count": 3,
+        "auction_date": "2026-10-27",
+        "auctions_with_awarded_amount": 3,
+        "awarded_usd": "240036562000.00",
+        "offering_usd": "219000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-10-28",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "112155149100.00",
+        "offering_usd": "105000000000.00"
+      },
+      {
+        "auction_count": 3,
+        "auction_date": "2026-10-29",
+        "auctions_with_awarded_amount": 3,
+        "awarded_usd": "285354737600.00",
+        "offering_usd": "269000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-11-02",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "188018006700.00",
+        "offering_usd": "177000000000.00"
+      },
+      {
+        "auction_count": 1,
+        "auction_date": "2026-11-03",
+        "auctions_with_awarded_amount": 1,
+        "awarded_usd": "106224817400.00",
+        "offering_usd": "100000000000.00"
+      },
+      {
+        "auction_count": 1,
+        "auction_date": "2026-11-04",
+        "auctions_with_awarded_amount": 1,
+        "awarded_usd": "80410350900.00",
+        "offering_usd": "75000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-11-05",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "241230913800.00",
+        "offering_usd": "225000000000.00"
+      },
+      {
+        "auction_count": 4,
+        "auction_date": "2026-11-09",
+        "auctions_with_awarded_amount": 4,
+        "awarded_usd": "365303986600.00",
+        "offering_usd": "335000000000.00"
+      },
+      {
+        "auction_count": 1,
+        "auction_date": "2026-11-10",
+        "auctions_with_awarded_amount": 1,
+        "awarded_usd": "50519618200.00",
+        "offering_usd": "42000000000.00"
+      },
+      {
+        "auction_count": 4,
+        "auction_date": "2026-11-12",
+        "auctions_with_awarded_amount": 4,
+        "awarded_usd": "350096873700.00",
+        "offering_usd": "325000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-11-16",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "189621168300.00",
+        "offering_usd": "177000000000.00"
+      },
+      {
+        "auction_count": 1,
+        "auction_date": "2026-11-17",
+        "auctions_with_awarded_amount": 1,
+        "awarded_usd": "107130245700.00",
+        "offering_usd": "100000000000.00"
+      },
+      {
+        "auction_count": 2,
+        "auction_date": "2026-11-18",
+        "auctions_with_awarded_amount": 2,
+        "awarded_usd": "98282616300.00",
+        "offering_usd": "91000000000.00"
+      },
+      {
+        "auction_count": 4,
+        "auction_date": "2026-11-19",
+        "auctions_with_awarded_amount": 4,
+        "awarded_usd": "277857383700.00",
+        "offering_usd": "259000000000.00"
+      }
+    ],
+    "instrument_summary": [
+      {
+        "auction_count": 33,
+        "auctions_with_awarded_amount": 33,
+        "auctions_with_recognized_amount": 33,
+        "awarded_usd": "3163106835100.00",
+        "comp_bid_expression": "Rate",
+        "floating_rate": null,
+        "inflation_protected": null,
+        "offering_usd": "2959000000000.00",
+        "recognized_usd": "8518472155200.00",
+        "reopenings": 23,
+        "security_type": "Bill"
+      },
+      {
+        "auction_count": 14,
+        "auctions_with_awarded_amount": 14,
+        "auctions_with_recognized_amount": 14,
+        "awarded_usd": "1409086089100.00",
+        "comp_bid_expression": "Rate",
+        "floating_rate": "No",
+        "inflation_protected": "No",
+        "offering_usd": "1319000000000.00",
+        "recognized_usd": "3604146886300.00",
+        "reopenings": 11,
+        "security_type": "Bill"
+      },
+      {
+        "auction_count": 4,
+        "auctions_with_awarded_amount": 4,
+        "auctions_with_recognized_amount": 4,
+        "awarded_usd": "83243015100.00",
+        "comp_bid_expression": "Yield",
+        "floating_rate": "No",
+        "inflation_protected": "No",
+        "offering_usd": "76000000000.00",
+        "recognized_usd": "199791369500.00",
+        "reopenings": 2,
+        "security_type": "Bond"
+      },
+      {
+        "auction_count": 7,
+        "auctions_with_awarded_amount": 7,
+        "auctions_with_recognized_amount": 7,
+        "awarded_usd": "422923498200.00",
+        "comp_bid_expression": "Yield",
+        "floating_rate": "No",
+        "inflation_protected": "No",
+        "offering_usd": "380000000000.00",
+        "recognized_usd": "1002448604500.00",
+        "reopenings": 1,
+        "security_type": "Note"
+      },
+      {
+        "auction_count": 1,
+        "auctions_with_awarded_amount": 1,
+        "auctions_with_recognized_amount": 1,
+        "awarded_usd": "33333576500.00",
+        "comp_bid_expression": "Discount Margin",
+        "floating_rate": "Yes",
+        "inflation_protected": "No",
+        "offering_usd": "30000000000.00",
+        "recognized_usd": "94975549400.00",
+        "reopenings": 0,
+        "security_type": "Note"
+      },
+      {
+        "auction_count": 2,
+        "auctions_with_awarded_amount": 2,
+        "auctions_with_recognized_amount": 2,
+        "awarded_usd": "46958579400.00",
+        "comp_bid_expression": "Yield",
+        "floating_rate": "No",
+        "inflation_protected": "Yes",
+        "offering_usd": "45000000000.00",
+        "recognized_usd": "110675160700.00",
+        "reopenings": 1,
+        "security_type": "Note"
+      }
+    ],
+    "quality": [
+      {
+        "metric": "current_auctions",
+        "value": 61
+      },
+      {
+        "metric": "history_versions",
+        "value": 61
+      },
+      {
+        "metric": "captures",
+        "value": 1
+      },
+      {
+        "metric": "current_absent_keys",
+        "value": 0
+      },
+      {
+        "metric": "source_record_date_differs_from_issue_date",
+        "value": 0
+      },
+      {
+        "metric": "issues_after_covered_end",
+        "value": 6
+      },
+      {
+        "metric": "missing_awarded_amount",
+        "value": 0
+      },
+      {
+        "metric": "missing_reported_bid_to_cover",
+        "value": 0
+      },
+      {
+        "metric": "missing_results_document",
+        "value": 0
+      }
+    ],
+    "revision_history": []
+  }
+}

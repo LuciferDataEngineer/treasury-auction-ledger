@@ -1,0 +1,2 @@
+load_sequence,captured_at,window_start,window_end,raw_rows,inserted,revised,removed,unchanged,capture_id,raw_sha256
+1,2026-11-19T22:06:13.938740Z,2026-10-01,2026-11-19,61,61,0,0,0,0e38fda0b625ce40e28838599d091a499130a53bc333fee491dd149c89db6282,ee2d437db7d78accae70f435b94a0a2897c903867e23c714538842f42858073a

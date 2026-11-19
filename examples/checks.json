@@ -1,0 +1,17 @@
+{
+  "validated_on": "2026-11-20",
+  "timezone": "Australia/Melbourne",
+  "python": "3.14.7",
+  "environment": "macOS local",
+  "deterministic_tests_passed": 44,
+  "suite_counts": {
+    "source": 19,
+    "warehouse": 17,
+    "reporting_and_cli": 8
+  },
+  "initial_live_evidence": "observed/live-acquisition.json",
+  "final_offline_replay": "observed/validation.json",
+  "real_overlap": "live-overlap-validation.json",
+  "synthetic_recovery": "synthetic-validation.json",
+  "cloud_deployed": false
+}

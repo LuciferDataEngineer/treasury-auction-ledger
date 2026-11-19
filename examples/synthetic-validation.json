@@ -1,0 +1,37 @@
+{
+  "coverage": "Entirely SYNTHETIC auction data, changes and observation times for engineering demonstrations.",
+  "loads": [
+    {
+      "inserted": 3,
+      "revised": 0,
+      "removed": 0,
+      "unchanged": 0,
+      "raw_rows": 3
+    },
+    {
+      "inserted": 1,
+      "revised": 1,
+      "removed": 1,
+      "unchanged": 0,
+      "raw_rows": 2
+    },
+    {
+      "inserted": 0,
+      "revised": 2,
+      "removed": 0,
+      "unchanged": 1,
+      "raw_rows": 3
+    }
+  ],
+  "final": {
+    "current_auctions": 4,
+    "history_versions": 8,
+    "captures": 3
+  },
+  "rollback_preserved_history_and_checkpoint": true,
+  "retry_after_reopen_preserved_newer_state": true,
+  "stale_new_capture_rejected": true,
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "history_sha256": "a989ff36639af5427159fcf28c9e1114eb5e3db51acc3b378767d425977a8ea2"
+}

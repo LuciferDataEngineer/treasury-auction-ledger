@@ -1,0 +1,10 @@
+metric,value
+current_auctions,61
+history_versions,61
+captures,1
+current_absent_keys,0
+source_record_date_differs_from_issue_date,0
+issues_after_covered_end,6
+missing_awarded_amount,0
+missing_reported_bid_to_cover,0
+missing_results_document,0

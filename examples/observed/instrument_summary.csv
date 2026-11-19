@@ -1,0 +1,7 @@
+security_type,inflation_protected,floating_rate,comp_bid_expression,auction_count,offering_usd,awarded_usd,auctions_with_awarded_amount,recognized_usd,auctions_with_recognized_amount,reopenings
+Bill,,,Rate,33,2959000000000.00,3163106835100.00,33,8518472155200.00,33,23
+Bill,No,No,Rate,14,1319000000000.00,1409086089100.00,14,3604146886300.00,14,11
+Bond,No,No,Yield,4,76000000000.00,83243015100.00,4,199791369500.00,4,2
+Note,No,No,Yield,7,380000000000.00,422923498200.00,7,1002448604500.00,7,1
+Note,No,Yes,Discount Margin,1,30000000000.00,33333576500.00,1,94975549400.00,1,0
+Note,Yes,No,Yield,2,45000000000.00,46958579400.00,2,110675160700.00,2,1

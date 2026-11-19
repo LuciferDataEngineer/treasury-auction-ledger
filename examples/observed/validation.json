@@ -1,0 +1,31 @@
+{
+  "validated_at": "2026-11-19T22:11:05.300118Z",
+  "python": "3.14.7",
+  "mode": "verified offline replay",
+  "source_url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/treasury_securities_auctions_v2",
+  "captured_at": "2026-11-19T22:06:13.938740Z",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-19",
+  "capture_id": "0e38fda0b625ce40e28838599d091a499130a53bc333fee491dd149c89db6282",
+  "raw_sha256": "ee2d437db7d78accae70f435b94a0a2897c903867e23c714538842f42858073a",
+  "raw_bytes_both_passes": 744656,
+  "pages_per_pass": [
+    1,
+    1
+  ],
+  "source_rows": 61,
+  "sql_queries_executed": 5,
+  "independent_monetary_group_rows_compared": 33,
+  "quality_metrics_compared": 9,
+  "totals": {
+    "offering_usd": "4809000000000.00",
+    "awarded_usd": "5158651593400.00",
+    "recognized_usd": "13530509725600.00"
+  },
+  "issues_after_covered_end": 6,
+  "replay_after_reopen_unchanged": true,
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "coverage": "One observed real capture window. Corrections and recovery scenarios are synthetic demonstrations.",
+  "cloud_deployed": false
+}
